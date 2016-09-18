@@ -1,0 +1,103 @@
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+  max-width: 160px;
+}
+
+a {
+  color: black;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip.n:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+
+h1.topheader {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+h1.topsubheader {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+@media screen and (min-width: 767px) {
+div.topheaderright {
+  float:right;
+}
+}
+div.topheaderright {
+  max-width: 430px;
+}
+@media screen and (min-width: 767px) {
+div.topheaderleft {
+  float:left;
+}
+}
+div.topheaderleft {
+  width: auto;
+}
+p.topheadertext {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+}
+
+
+h1.areaname {
+  font-size: 28px;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+  word-wrap: break-word;
+    -ms-word-break:break-all;
+    word-break:break-all;
+    word-break:break-word;
+    -webkit-hyphens:auto;
+    -moz-hyphens:auto;
+    hyphens:auto;
+}
+
+h1.percentages {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+  word-wrap: break-word;
+    -ms-word-break:break-all;
+    word-break:break-all;
+    word-break:break-word;
+    -webkit-hyphens:auto;
+    -moz-hyphens:auto;
+    hyphens:auto;
+}
+
+div.fullcontainer {
+  max-width: 768px;
+  width: 100%;
+  align: center;
+  margin-left: auto;
+  margin-right: auto;
+}

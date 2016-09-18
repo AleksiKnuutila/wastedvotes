@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>WASTED VOTES - UK General Election 2015</title>
+
+  <meta name="description" content="Wasted votes: Want to understand why the results from the UK election were so distorted? This visualisation shows how shockingly bad the system is.">
+  <meta name="keywords" content="election uk politics 2015 data visualisation constituencies results electoral reform voting system" />
+
+  <!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '---', 'auto');
+  ga('send', 'pageview');
+</script>
+
+  <link rel="stylesheet" href="css/social-likes_flat.css">
+
+  <!-- for Facebook -->
+  <meta property="og:title" content="Wasted votes: Want to understand why the results from the UK election were so distorted?" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="http://www.wastedvotes.org/wastedvotes-ogimage.png" />
+  <meta property="og:url" content="http://www.wastedvotes.org" />
+  <meta property="og:description" content="This visualisation reveals why the electoral system is even worse than you thought. Are we living in a democracy? Why did the Conservatives need only 34,416 votes per MP and the Greens 1,125,259?" />
+
+  <!-- for Twitter -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Wasted votes: Want to understand why the results from the UK election were so distorted?" />
+  <meta name="twitter:description" content="This visualisation reveals why the electoral system is even worse than you thought. Are we living in a democracy? Why did the Conservatives need only 34,416 votes per MP and the Greens 1,125,259?" />
+  <meta name="twitter:image" content="" />
+
+  <!-- Google fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
+  <!--  <link href='http://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'> -->
+
+  <!-- Add jQuery -->
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <!-- d3 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.js"></script>
+  <script src="bower_components/d3-tip/index.js"></script>
+  <!-- <script src="js/bootstrap-popover.js"></script>-->
+  <script src="votes-by-constituency.json"></script>
+
+  <script src="js/color.js"></script>
+  <script src="js/social-likes.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="css/styles.css" />
+</head>
+<body>
+<div class="fullcontainer">
+  <div class="row topheaderleft">
+    <h1 class="topheader">Wasted votes</h1>
+    <h1 class="topsubheader">UK General Election 2015</h1>
+  </div>
+  <div class="topheaderright">
+	  <p class="topheadertext">In every constituency, the candidate with most votes wins. The rest of the votes count for nothing. That is why the results are <a href="http://www.unlockdemocracy.org/blog/2015/5/8/how-badly-we-have-been-let-down-by-our-voting-system">so undemocratic</a>. <a href="http://action.makeseatsmatchvotes.org/ea-action/action?ea.client.id=1754&ea.campaign.id=38262&ea.tracking.id=msmv">Join the fight</a> for a new democratic system.</p>
+  <p class="topheadertext">Every box below represents votes received by a party. Stronger colours indicate the winner and lighter ones votes that were ignored. Move your mouse or click on boxes for more information. Author: <a href="http://www.twitter.com/knuutila">@knuutila</a></p>
+  <div class="social-likes" data-title="Want to know why the results from the UK election were distorted? Visualisation shows the democratic deficit #ge2015">
+    <div class="facebook" title="Share link on Facebook">Facebook</div>
+    <div class="twitter" title="Share link on Twitter">Twitter</div>
+  </div>
+  </div>
+  <div style="clear: both;"></div>
+  <hr style="height:3px;border:none;color:#333;background-color:#333;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:xlink="http://www.w3.org/1999/xlink" class="tributary_svg0" preserveAspectRatio="xMinYMin meet" viewBox="0 0 768 1600" width="100%" height="100%"></svg>
+  </div>
+
+  <script src="render.js"></script>
+
+</body>
+</html>
